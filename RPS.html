@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Page Title</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href = "RPS.css">
+		<script src="RPS.js"></script>
+	</head>
+	<body>
+		<body>
+		<div class = "game">
+			<div class = "container d-flex justify-content-around"> 
+						<img id = "rock" src = "https://toppng.com/uploads/preview/rock-paper-scissors-circle-11562962494dqcjusyikw.png" onclick="opt_1()">
+						<img id = "paper" src = "https://www.pinclipart.com/picdir/big/51-511436_rock-paper-scissors-dell-clipart.png" onclick="opt_2()">
+						<img id = "scissors" src = "https://www.clipartkey.com/mpngs/b/109-1094404_rock-paper-scissors-clipart.png" onclick="opt_3()">
+				</div>
+				<br>
+				<div class = "container d-flex justify-content-around">
+					<p class="r">Rock</p>
+					<p class="p">Paper</p>
+					<p class="s">Scissors</p>
+				</div>
+			<hr>
+			<br>
+			<br>
+			<div id = "results"><h3 class = 'h3' style = 'text-align:center;'>Results</h3><p id = 'result_text'></div>
+			<hr class='hr'><br><br>
+			<div><h3 style = 'text-align:center;'>Scores</h3><div class = "row"><div class = "col-6"><h5 id = 'yr_scr'></h5></div><div class = "col-6"><h5 id = 'cmp_scr'></h5></div></div></div>
+			</div>
+		</div>
+	</body>
+</html>
